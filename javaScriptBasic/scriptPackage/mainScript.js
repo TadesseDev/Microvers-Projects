@@ -49,8 +49,47 @@ else {
 
 let backB=document.getElementsByClassName("back")[0].getElementsByTagName("img")[0];
 let nextB=document.getElementsByClassName("next")[0].getElementsByTagName("img")[0];
-nextB.onclick=changeFooterContent("this is next");
-backB.onclick=changeFooterContent("this is back");
-function changeFooterContent(vara){
-alert(vara);
+let intialFoterValue=document.getElementById("firstContent").
+style= "width: 100%;background-color: black; height: 5%;display: inline-block; color: white;text-align: center;";
+document.getElementById("firstContent").textContent="this is first content";
+;
+nextB.onclick=function(){
+    changeFooterContent("next");
+};
+backB.onclick=function(){
+    changeFooterContent("back");
+}
+function changeFooterContent(toWhere){
+    textContent="this is first content";
+    if(toWhere=="next"){
+    if(intialFoterValue=="firstContent"){
+    intialFoterValue="secondContent";
+    textContent="this is second content";}
+    else if(intialFoterValue=="secondContent"){
+    intialFoterValue="thiredContent";
+    textContent="this is third content";}
+    else{ 
+        intialFoterValue="firstContent";
+        textContent="this is first content";
+    }
+}
+else{
+    if(intialFoterValue=="firstContent"){
+    intialFoterValue="thiredContent";
+    textContent="this is thired content";}
+    else if(intialFoterValue=="thiredContent"){
+    intialFoterValue="secondContent";
+    textContent="this is second content";}
+    else {intialFoterValue="firstContent";
+    textContent="this is first content";}
+}
+    document.getElementById("firstContent").style="";
+    document.getElementById("firstContent").textContent="";
+    document.getElementById("secondContent").style="";
+    document.getElementById("secondContent").textContent="";
+    document.getElementById("thiredContent").style="";
+    document.getElementById("thiredContent").textContent="";
+    document.getElementById(intialFoterValue)
+    .style= "width: 100%;background-color: black; height: 5%;display: inline-block; color: white;text-align: center;";
+    document.getElementById(intialFoterValue).textContent=textContent;
 }
