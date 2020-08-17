@@ -1,0 +1,28 @@
+html{
+	margin: 0px;
+	padding: 0px;
+}
+#pageHeader{
+	display: block;
+	position: relative;
+	height: 10%;
+	width:auto;
+	background: silver;
+}
+#pageBody{
+	display: block;
+	position: relative;
+	height: 80%;
+	width:auto;
+	background: red;
+}
+footer{
+	margin: 0px;
+}
+#pageFooter{
+	display: block;
+	position: relative;
+	height: 10%;
+	width:auto;
+	background: silver;
+}

@@ -22,7 +22,7 @@ changeNameButton.onclick=function(){
 }
 let imageChanged=document.getElementsByClassName("imageSwitchContainer")[0];
 // inttial image value is 
-imageChanged.innerHTML="<img src='imageFiles/homeImage1.jpeg' width='100%'/>";
+imageChanged.innerHTML="<img src='imageFiles/homeImage1.jpeg' width='80%'/>";
 // onclick the ne wimage will be loaded 
 imageChanged.onclick=function(){
     changeName();

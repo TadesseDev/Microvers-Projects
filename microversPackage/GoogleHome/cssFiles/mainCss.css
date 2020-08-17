@@ -1,0 +1,81 @@
+body{
+    margin: 1%;
+}
+#homeHeader{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#homeBody{
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+#homeFooter{
+    background: red;
+    display: block;
+    height: 10%;
+}
+#headerBox{
+    width: 100%;
+    text-align: right;
+}
+.homeBox{
+    width:40%;
+    display: block;
+    /* background-color: blue; */
+    /* float: right; */
+}
+#searchBox{
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+}
+#googleHomeSearch{
+   width: 100%;
+   height: 100%;
+   font-size: 1.5em;
+   border-radius: 50% 20% 50% 20%;
+   border: none;
+}
+.leftBox{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    /* float: left; */
+}
+.iconImageContainerCircle{
+    height: 60%;
+    width: 6%;
+    background-color:blue;
+    background-image: url("/images/userImage.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: 0.3em;
+}
+.iconImageContainerBlock{
+    height: 60%;
+    width: 6%;
+    background-image: url("/images/keyboard.png");
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; 
+    margin: 0.5em;
+}
+ a{
+     text-decoration: none;
+     color: #3C4043;
+     margin: 0.5em 0.2em;
+} 
