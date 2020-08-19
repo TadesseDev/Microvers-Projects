@@ -8,7 +8,7 @@ body{
 }
 .headerContainer{
     padding-right: 1%;
-float: right;
+    float: right;
 }
 .head .text,.head .img{
     vertical-align: middle;
@@ -26,7 +26,6 @@ float: right;
 .head .img:nth-child(3){
     width: 28px;
     height: 28px;
-    border-radius: 5px;
     background-image: url("../images/Google\ App.png");
     background-size: cover;
     background-position: center;
@@ -38,9 +37,9 @@ float: right;
 }
 .mainBody{
     position: relative;
-    height: 76%;
+    height: 520px;
     margin: auto;
-    overflow: scroll;
+    overflow: visible;
     /* background-color: silver; */
 }
 .mainBody .searchBox{
@@ -134,7 +133,6 @@ text-align: center;
     font-size: 0.9em;
 }
 .GoogleOfferdText a{
-    font-size: 1em;
     margin: 1px;
     text-decoration: none;
     color: rgb(55, 55, 172);
@@ -143,20 +141,20 @@ text-align: center;
     position: relative;
     left: 0px;
     margin: 0;
-    height: 13%;
+    height: 90px;
     width: auto;
     background-color: rgb(238, 238, 238);
 }
 .FooterLinks1{
-    margin-top: 7px;
+    margin-top: 1%;
     float: left;
 }
 .FooterLinks2{
-    margin-top: 7px;
+    margin-top: 1%;
     float: right;
 }
 .GoogleFooter P:first-child{
-    padding: 15px  15px 0px 30px;
+    padding: 1.5%  1.5% 0px 3%;
     color: rgb(134, 134, 134);
     margin: 0px;
 }
@@ -189,4 +187,13 @@ text-decoration: underline;
     background-color: rgb(245, 244, 244);
     box-shadow: 0px 0px 2px 0.2px rgb(104, 104, 104);
     border-radius: 2px;
+}
+@media only screen and (max-width: 700px){
+    .GoogleFooter a{
+        font-size: 0.5em;
+        }
+        .head .text,.head .img{
+            margin-top: -4px;
+            transform: scale(0.8);
+        }
 }
