@@ -37,7 +37,7 @@ body{
 }
 .mainBody{
     position: relative;
-    height: 535px;
+    height: 77%;
     margin: auto;
     overflow: visible;
     /* background-color: silver; */
@@ -141,7 +141,7 @@ text-align: center;
     position: relative;
     left: 0px;
     margin: 0;
-    height: 78px;
+    height: 11%;
     width: auto;
     background-color: rgb(238, 238, 238);
 }
