@@ -37,7 +37,7 @@ body{
 }
 .mainBody{
     position: relative;
-    height: 520px;
+    height: 535px;
     margin: auto;
     overflow: visible;
     /* background-color: silver; */
@@ -141,20 +141,22 @@ text-align: center;
     position: relative;
     left: 0px;
     margin: 0;
-    height: 90px;
+    height: 78px;
     width: auto;
     background-color: rgb(238, 238, 238);
 }
 .FooterLinks1{
-    margin-top: 1%;
+    margin-top: 0.3%;
     float: left;
+margin-left: 20px;
 }
 .FooterLinks2{
-    margin-top: 1%;
+    margin-top: 0.3%;
     float: right;
+    margin-right: 15px;
 }
 .GoogleFooter P:first-child{
-    padding: 1.5%  1.5% 0px 3%;
+    padding: 1%  1.5% 0px 2.5%;
     color: rgb(134, 134, 134);
     margin: 0px;
 }
@@ -168,11 +170,10 @@ hr{
 text-decoration: none;
 text-transform: capitalize;
 color: rgb(102, 101, 101);
-padding: 10px;
+padding: 0px 10px 0 10px;
 font-size: 1em;
 }
 .GoogleFooter a:first-child{
-margin-left: 20px;
 }
 a a:visited{
     color: rgb(78, 78, 78);
